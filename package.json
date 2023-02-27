@@ -2,7 +2,9 @@
   "name": "style-var-tip",
   "displayName": "Style Var Tip",
   "description": "这是一个style 变量提示插件",
+  "publisher": "huangsisheng",
   "version": "0.0.1",
+  "repository": "",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -10,14 +12,20 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:style-var-tip.helloWorld"
+    "onLanguage:css",
+    "onLanguage:scss",
+    "onLanguage:less",
+    "onLanguage:stylus",
+    "onLanguage:jsx",
+    "onLanguage:tsx",
+    "onLanguage:vue"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "style-var-tip.helloWorld",
-        "title": "Hello World"
+        "command": "style-var-name",
+        "title": "The style variable tips"
       }
     ]
   },
