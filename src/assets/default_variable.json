@@ -1,0 +1,30 @@
+{
+  "#409EFF": "$--color-primary",
+  "#FFFFFF": "$--color-white",
+  "#000000": "$--color-black",
+
+  "#53a8ff": "$--color-primary-light-1",
+  "#66b1ff": "$--color-primary-light-2",
+  "#79bbff": "$--color-primary-light-3",
+  "#8cc5ff": "$--color-primary-light-4",
+  "#a0cfff": "$--color-primary-light-5",
+  "#b3d8ff": "$--color-primary-light-6",
+  "#c6e2ff": "$--color-primary-light-7",
+  "#d9ecff": "$--color-primary-light-8",
+  "#ecf5ff": "$--color-primary-light-9",
+
+  "#67C23A": "$--color-success",
+  "#E6A23C": "$--color-warning",
+  "#F56C6C": "$--color-danger",
+  "#909399": ["$--color-info", "$--color-text-secondary"],
+
+  "#303133": "$--color-text-primary",
+  "#606266": "$--color-text-regular",
+  "#C0C4CC": "$--color-text-placeholder",
+
+  "#DCDFE6": "$--border-color-base",
+  "#E4E7ED": "$--border-color-light",
+  "#EBEEF5": "$--border-color-lighter",
+  "#F2F6FC": "$--border-color-extra-light",
+  "#F5F7FA": "$--background-color-base"
+}
